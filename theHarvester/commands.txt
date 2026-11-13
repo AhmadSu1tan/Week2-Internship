@@ -1,0 +1,21 @@
+# theHarvester COMMAND REFERENCE
+# W2-PM4 - Internship Project
+
+# Display help
+theHarvester -h
+
+# Display available data sources
+theHarvester -h
+
+# General command structure
+theHarvester -d DOMAIN -b SOURCE
+
+# Specify result limit
+theHarvester -d DOMAIN -l 100 -b SOURCE
+
+# Save results to a file
+theHarvester -d DOMAIN -b SOURCE -f OUTPUT_FILE
+
+# NOTE:
+# Actual reconnaissance commands must only be executed
+# after authorization and scope confirmation.

@@ -1,0 +1,18 @@
+# Nmap 7.991 scan initiated Fri Nov 13 06:17:04 2026 as: /usr/lib/nmap/nmap --privileged -sV -oA Zenmap/scans/scanme-basic scanme.nmap.org
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.32s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 991 closed tcp ports (reset)
+PORT     STATE    SERVICE      VERSION
+22/tcp   open     tcpwrapped
+23/tcp   filtered telnet
+24/tcp   filtered priv-mail
+25/tcp   filtered smtp
+80/tcp   open     http         Apache httpd 2.4.7 ((Ubuntu))
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+9929/tcp open     nping-echo   Nping echo
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov 13 06:19:01 2026 -- 1 IP address (1 host up) scanned in 117.62 seconds

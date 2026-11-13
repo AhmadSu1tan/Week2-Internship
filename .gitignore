@@ -1,0 +1,9 @@
+authorization/
+evidence/
+Zenmap/scans/lan-discovery.*
+Zenmap/results/scan-analysis.md
+.env
+*.pem
+*.key
+__pycache__/
+.venv/

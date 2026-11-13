@@ -1,0 +1,24 @@
+# W2-PM5 - ZENMAP / NMAP COMMAND REFERENCE
+
+# Check Nmap version
+nmap --version
+
+# Check Zenmap version
+zenmap --version
+
+# Display Nmap help
+nmap -h
+
+# Ping scan of an explicitly authorized LAN
+nmap -sn AUTHORIZED_SUBNET
+
+# Save scan in multiple formats
+nmap -sn -oA ../Zenmap/scans/lan-discovery AUTHORIZED_SUBNET
+
+# Open Zenmap GUI
+zenmap
+
+# IMPORTANT:
+# Replace AUTHORIZED_SUBNET only after verifying
+# the local network scope and authorization.
+# Do not execute scanning commands prematurely.
